@@ -37,15 +37,15 @@ developers = {
 -- Supported keys are shown below (line 1316)
 -- Find new ones at https://docs.fivem.net/game-references/controls/
 
-menuKeybind = "DELETE" -- Key to open the menu.
-noclipKeybind = "F3" -- Key to toggle Noclip
-fixcarKeybind = "F1" -- Key to fix car
-healplayerKeybind = "F2" -- Key to heal player
+menuKeybind = "F10" -- Key to open the menu.
+noclipKeybind = "P" -- Key to toggle Noclip
+fixcarKeybind = "UNBIND" -- Key to fix car
+healplayerKeybind = "UNBIND" -- Key to heal player
 
 
 -- End Keybindings
 
-menuName = "SkidMenu" -- The name of the menu
+menuName = "JonDoe" -- The name of the menu
 version = "1.0" -- Keep it simple
 theme = "infamous" -- Feel free to make your own
 themes = {"infamous", "basic", "dark", "skid"}-- Add themes here if you want them to be in the theme selector
@@ -58,7 +58,7 @@ motd = "∑ Press ~b~" .. noclipKeybind .. "~w~ to toggle noclip!" -- motd
 menulist = {
         
         -- MAIN SUBMENUS
-        'skid',
+        'JonDon',
         'player',
         'self',
         'weapon',
